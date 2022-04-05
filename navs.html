@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
+    <title>Navs&Tabs Page</title>
+    <style>
+        body
+        {
+            padding:70px;
+        }      
+    </style>
+</head>
+<body>
+    <!-- SAYFA KODLARI -->
+    <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+
+    <br><br>
+    
+    <nav class="nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Products</a>
+        <a href="#" class="nav-link disabled">About</a>
+    </nav>
+
+    <br><br>
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+
+    <br><br>
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+
+    <br><br>
+
+    <ul class="nav flex-column">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+
+    <br><br>
+    
+    <nav class="nav flex-column">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Products</a>
+        <a href="#" class="nav-link disabled">About</a>
+    </nav>
+
+    <br><br>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+
+    <br><br>
+
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+
+    <br><br>
+
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+
+    <br><br>
+
+    <ul class="nav nav-pills nav-justified">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+
+    <br><br>
+
+    <div class="bg-secondary">
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#home" data-bs-toggle="tab" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#products" data-bs-toggle="tab" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#about" data-bs-toggle="tab" class="nav-link">About</a></li>
+        </ul>
+        <div class="tab-content py-4">
+            <div class="tab-pane fade show active" id="home">Home Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+            <div class="tab-pane fade" id="products">Products Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+            <div class="tab-pane fade" id="about">About Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="bg-light">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#home2" data-bs-toggle="tab" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#products2" data-bs-toggle="tab" class="nav-link active">Products</a></li>
+            <li class="nav-item"><a href="#about2" data-bs-toggle="tab" class="nav-link">About</a></li>
+        </ul>
+        <div class="tab-content py-4">
+            <div class="tab-pane fade" id="home2">Home Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+            <div class="tab-pane fade show active" id="products2">Products Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+            <div class="tab-pane fade" id="about2">About Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="bg-warning">
+        <div class="row">
+            <div class="col-3">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item"><a href="#home3" data-bs-toggle="tab" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#products3" data-bs-toggle="tab" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="#about3" data-bs-toggle="tab" class="nav-link">About</a></li>
+                </ul>
+            </div>
+            <div class="col-9">
+                <div class="tab-content py-4">
+                    <div class="tab-pane fade show active" id="home3">Home Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+                    <div class="tab-pane fade" id="products3">Products Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+                    <div class="tab-pane fade" id="about3">About Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo. Tenetur nam, explicabo quod, numquam quas quo atque iure eligendi sint minima veniam minus. Officiis sed tempora laboriosam iure eius.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
